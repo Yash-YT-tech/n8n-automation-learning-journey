@@ -14,4 +14,15 @@ Next up, we’ll start exploring the tools and frameworks to make that happen.
 
 ---
 
+## Tools Used
+- **n8n** – the automation platform we will be using to build workflows and agents.
+
+---
+
+## Resources
+- **YouTube Playlist (Full Course):** [AI Agents Masterclass Playlist](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
+- **Day 1 Video:** [Foundations of AI Automation & Agents](https://youtu.be/dhhVxJ_qUPc?si=GsPiHpFxNK6_pQP9)
+
+---
+
 **Key takeaway:** I now have a solid foundation — knowing when to use automation vs agents, and why that choice shapes everything that follows.
