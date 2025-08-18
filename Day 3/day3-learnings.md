@@ -49,4 +49,5 @@ This foundation feels essential before building advanced AI agents 🚀.
 
 **Resources:**  
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
-- ▶️ Day 3 Video: [N8N Dashboard & Interface](https://youtu.be/R2HsJuNr-ac?si=B07oLrxvGJJsqc_p)  
+- ▶️ Day 3 Video: [N8N Dashboard & Interface](https://youtu.be/iQSZIOoe8P4?si=UIzsDUgNOa2R-tab)  
+
