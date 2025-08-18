@@ -33,4 +33,5 @@ Together, they form a full automation engine – from simple scheduled tasks to 
 
 **Resources:**  
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
-- ▶️ Day 4 Video: [5 Types of Nodes in n8n](https://youtu.be/R2HsJuNr-ac?si=B07oLrxvGJJsqc_p)  
+- ▶️ Day 4 Video: [5 Types of Nodes in n8n](https://youtu.be/a1eY8x8P09Y?si=G4U3LGG-17TQXQcB)  
+
