@@ -58,7 +58,7 @@ Click to view the files directly:
 
 ✅ [Day 5 Workflow Screenshot](./day5-screenshot.png) ---> Screenshot of Workflow
 
-✅ [Day 5 Final Result](./day-result.png) ---> Screenshot of Final Result
+✅ [Day 5 Final Result](./day5-result.png) ---> Screenshot of Final Result
 
 
 
@@ -68,6 +68,7 @@ Click to view the files directly:
 **Resources:**  
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
 - ▶️ Day 5 Video: [Recruitment Workflow with AI](https://youtu.be/EHbAA8aERYc?si=ooijekdNfxQroml1)  
+
 
 
 
