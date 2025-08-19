@@ -54,8 +54,12 @@ Instead of just storing data, I can build a system that acts like a **smart recr
 
 ## 🗂 Project Files
 Click to view the files directly:    
-✅ [Day 5 Workflow](./day5-workflow-code.json)
+✅ [Day 5 Workflow](./day5-workflow-code.json) 
+
 ✅ [Day 5 Workflow Screenshot](./day5-screenshot.png)
+
+✅ [Day 5 Final Result](./day-result.png)
+
 
 
 
@@ -64,6 +68,7 @@ Click to view the files directly:
 **Resources:**  
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
 - ▶️ Day 5 Video: [Recruitment Workflow with AI](https://youtu.be/EHbAA8aERYc?si=ooijekdNfxQroml1)  
+
 
 
 
