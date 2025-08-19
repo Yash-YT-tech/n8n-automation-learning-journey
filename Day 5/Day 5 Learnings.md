@@ -45,7 +45,9 @@
 
 **📝 Final Takeaway:**  
 Day 5 felt like a **big step forward**.  
-I now know how to link forms, conditions, Airtable, and AI together.  
+
+I now know how to link forms, conditions, Airtable, and AI together.
+
 Instead of just storing data, I can build a system that acts like a **smart recruiter** — it saves time, keeps things fair, and gives clear recommendations.  
 
 ---
@@ -60,3 +62,4 @@ Instead of just storing data, I can build a system that acts like a **smart recr
 **Resources:**  
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=Jd125zWc1zOaKy-n)  
 - ▶️ Day 5 Video: [Recruitment Workflow with AI](https://youtu.be/R2HsJuNr-ac?si=B07oLrxvGJJsqc_p)  
+
