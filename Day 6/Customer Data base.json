@@ -1,0 +1,360 @@
+{
+  "name": "Customer Data base",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1842dd3b-ac04-4da0-9fac-20dafea95ef3",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e9d17d28-3590-4e5d-a9bc-8f2b7f95e9b5",
+              "name": "name",
+              "value": "={{ $json.name }}",
+              "type": "string"
+            },
+            {
+              "id": "ee4ac5ab-917e-471a-a2d5-ba1a4a2635b7",
+              "name": "email",
+              "value": "={{ $json.email }}",
+              "type": "string"
+            },
+            {
+              "id": "f62c866d-884e-4f2f-9c8f-9ee571fb805b",
+              "name": "country",
+              "value": "={{ $json.country }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": "=",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        832,
+        -96
+      ],
+      "id": "ccabbeb8-f5b1-486a-9977-02045c33b05d",
+      "name": "US1"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "14UrNNg3mVup3_dNHIvqC5URvveWt1VWCz_Kq6cNp748",
+          "mode": "list",
+          "cachedResultName": "Sample Data - n8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14UrNNg3mVup3_dNHIvqC5URvveWt1VWCz_Kq6cNp748/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 575710531,
+          "mode": "list",
+          "cachedResultName": "MOCK_DATA (2)",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14UrNNg3mVup3_dNHIvqC5URvveWt1VWCz_Kq6cNp748/edit#gid=575710531"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        208,
+        0
+      ],
+      "id": "dc1b64f7-adbc-434c-b8ad-1253b259075e",
+      "name": "Get row(s) in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "yQkcH3w6WoIaFUwx",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ef582848-52b3-4fa4-a4d1-79cb955649ee",
+              "name": "name",
+              "value": "={{ $json.Name }}",
+              "type": "string"
+            },
+            {
+              "id": "f1ab766c-8a1e-43ad-a1c5-d364196be9d8",
+              "name": "email",
+              "value": "={{ $json.Email }}",
+              "type": "string"
+            },
+            {
+              "id": "783d0b9d-69fe-4335-ac8d-47ddd1e07afa",
+              "name": "country",
+              "value": "={{ $json.Country }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        416,
+        0
+      ],
+      "id": "24cf5f8c-82d4-4743-8565-a69f23d690b1",
+      "name": "Fields"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "35f63f0a-bd03-465a-b488-0431e65cecff",
+              "name": "name",
+              "value": "={{ $json.name }}",
+              "type": "string"
+            },
+            {
+              "id": "3308bba7-e5e8-4009-b07e-b63cb18854b2",
+              "name": "email",
+              "value": "={{ $json.email }}",
+              "type": "string"
+            },
+            {
+              "id": "5591e158-9b96-4636-8885-8be784364ec3",
+              "name": "country",
+              "value": "={{ $json.country }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        832,
+        96
+      ],
+      "id": "9a75cfa1-538c-471e-b49b-45c0feb413d6",
+      "name": "Other Country's"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "2234d4f5-83c6-4324-9dd5-d4133fe71642",
+              "leftValue": "={{ $json.country }}",
+              "rightValue": "United States",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        624,
+        0
+      ],
+      "id": "68e26bfb-6312-4c8c-a464-759baeba1866",
+      "name": "Country Seperator"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "11P5sm47Arq5hxnB6eoXlPGDty2mYbkkLgX3ZhGB7mYw",
+          "mode": "list",
+          "cachedResultName": "Sample data - US",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/11P5sm47Arq5hxnB6eoXlPGDty2mYbkkLgX3ZhGB7mYw/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1370753432,
+          "mode": "list",
+          "cachedResultName": "n8n-sheet-US",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/11P5sm47Arq5hxnB6eoXlPGDty2mYbkkLgX3ZhGB7mYw/edit#gid=1370753432"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1040,
+        -96
+      ],
+      "id": "fa2246d5-e764-48a2-89f2-97f63a695a76",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "yQkcH3w6WoIaFUwx",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1Jq3NdV5OJbVQmiLGDbUyKsNQ3y3yvLe61O5yomH_CBY",
+          "mode": "list",
+          "cachedResultName": "Sample data - Other Countrys",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Jq3NdV5OJbVQmiLGDbUyKsNQ3y3yvLe61O5yomH_CBY/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Jq3NdV5OJbVQmiLGDbUyKsNQ3y3yvLe61O5yomH_CBY/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1056,
+        128
+      ],
+      "id": "eacd1f0d-c977-49e4-8df2-19907ffcaf40",
+      "name": "Append or update row in sheet1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "yQkcH3w6WoIaFUwx",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet": {
+      "main": [
+        [
+          {
+            "node": "Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fields": {
+      "main": [
+        [
+          {
+            "node": "Country Seperator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Country Seperator": {
+      "main": [
+        [
+          {
+            "node": "US1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Other Country's",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "US1": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Other Country's": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a25aa40e-4f69-449b-9b77-82954f75e294",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f509280fef903158b88c79e2afd8b9d2f749b31c90ddb7b1d03ce13d6cb4ed9f"
+  },
+  "id": "fiHIRTDYKD3KsCgL",
+  "tags": []
+}
