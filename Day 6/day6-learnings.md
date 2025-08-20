@@ -60,8 +60,9 @@ This is the **core foundation** for AI agents that adapt actions based on **cust
 ---
 
 ## 📚 Resources
-- 📺 Playlist: *AI Agents Masterclass*  
+- 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=PFljBCzetUImEN5I)
 - ▶️ Day 6 Video: [Watch on YouTube](https://youtu.be/9nckPa2EvRw?si=Q4xlOOsmRPujBFet)  
+
 
 
 
