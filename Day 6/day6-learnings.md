@@ -51,14 +51,16 @@ This is the **core foundation** for AI agents that adapt actions based on **cust
 ---
 
 ## 🗂 Project Files
-- ✅ [Day 6 Workflow JSON](./CustomerDatabase.json)  
-- ✅ [Day 6 Workflow Screenshot]
-- ✅ Day 6 Demo Video] 
-- ✅ Day 6 Final Result  
+- ✅ [Day 6 Workflow JSON](./Customer%20Data%20base.json)  
+- ✅ [Day 6 Workflow Screenshot](./day6-screenshot.png)  
+- ✅ [Day 6 Demo Video](./day6-video.mp4)  
+- ✅ [Mock Data (Excel)](./MOCK_DATA.xlsx)  
+
 
 ---
 
 ## 📚 Resources
 - 📺 Playlist: *AI Agents Masterclass*  
 - ▶️ Day 6 Video: *(replace with actual link)*  
+
 
