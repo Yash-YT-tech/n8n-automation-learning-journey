@@ -54,7 +54,9 @@ This is the **core foundation** for AI agents that adapt actions based on **cust
 - ✅ [Day 6 Workflow JSON](./Customer%20Data%20base.json)  
 - ✅ [Day 6 Workflow Screenshot](./day6-screenshot.png)  
 - ✅ [Day 6 Demo Video](./day6-video.mp4)  
-- ✅ [Mock Data (Excel)](./MOCK_DATA.csv)  
+- ✅ [Mock Data ](./MOCK_DATA.csv)
+- ✅ [Final Sheet US)](./Sampledata-US-n8n-sheet-US.csv)
+- ✅ [Final Sheet Other Country's](./Sampledata-otherCountrys-Sheet1.csv) 
 
 
 ---
@@ -62,6 +64,7 @@ This is the **core foundation** for AI agents that adapt actions based on **cust
 ## 📚 Resources
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=PFljBCzetUImEN5I)
 - ▶️ Day 6 Video: [Watch on YouTube](https://youtu.be/9nckPa2EvRw?si=Q4xlOOsmRPujBFet)  
+
 
 
 
