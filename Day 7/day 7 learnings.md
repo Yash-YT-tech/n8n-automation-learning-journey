@@ -98,12 +98,13 @@ This is the **strategic foundation** for building professional AI agents.
 ---
 
 ## 🗂 Project Files
-- ✅ [Day 7 Workflow Blueprint](./day7-blueprint.pdf)   
+- ✅ [Day 7 Workflow Blueprint](./Blueprint-Workflows.pdf)   
 
 ---
 
 ## 📚 Resources
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=PFljBCzetUImEN5I)  
 - ▶️ Day 7 Video: [Watch on YouTube](https://youtu.be/xxxxxxxxxxx)  
+
 
 
