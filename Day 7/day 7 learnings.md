@@ -104,7 +104,8 @@ This is the **strategic foundation** for building professional AI agents.
 
 ## 📚 Resources
 - 📺 Playlist: [AI Agents Masterclass](https://youtube.com/playlist?list=PLwdhOAfEpxTaHqf_o0waIy-EPz0PWEvFh&si=HSsddNRfe0A2H95J)  
-- ▶️ Day 7 Video: [Watch on YouTube](https://youtu.be/xxxxxxxxxxx)  
+- ▶️ Day 7 Video: [Watch on YouTube](https://youtu.be/fILw8-MYrvA?si=rbDchsgzBFtW3zQZ)  
+
 
 
 
